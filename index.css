@@ -1,0 +1,52 @@
+body {
+	background-color: purple;
+}
+
+.title{
+	font-family: "Comic sans MS";
+	text-align: center;
+	font-size:200px;
+}
+.title2{
+	font-family: "Comic sans MS";
+	text-align: center;
+	font-size:30px;
+}
+.text{
+	font-family: "Comic sans MS";
+	text-align: center;
+	font-size:15px;
+}
+
+.li{
+	background-color: purple;
+	list-style-type: square;
+}
+
+
+/*menyn*/
+ul{
+	text-align:center;
+	list-style-type:none;
+	margin-left:41%;
+	padding:0;
+	width:350px;
+	background-color: lightblue;
+}
+
+li a{
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a.active{
+	background-color: darkblue;
+	color: white;
+}
+
+li a:hover:not(.active){
+	background-color: #555;
+	color: white;
+}
