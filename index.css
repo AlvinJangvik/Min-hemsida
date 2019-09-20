@@ -18,9 +18,32 @@ body {
 	font-size:15px;
 }
 
+.text2{
+	font-family: "Comic sans MS";
+	text-align: center;
+	font-size:30px;
+}
+.link{
+	font-family: "Comic sans MS";
+	text-align: center;
+	font-size:30px;
+	margin-left:47.5%;
+}
+
 .li{
 	background-color: purple;
 	list-style-type: square;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center{
+	text-align:center;
 }
 
 
@@ -48,5 +71,23 @@ li a.active{
 
 li a:hover:not(.active){
 	background-color: #555;
+	color: white;
+}
+
+/*meny*/
+table, th, td{
+	border:2px solid black;
+	font-family:Arial;
+	border-collapse:collapse;
+	width:50%;
+	margin-left:25%;
+	text-align:center;
+}
+
+tr:nth-child(odd){
+	background-color:red;
+}
+tr:nth-child(even){
+	background-color:blue;
 	color: white;
 }
